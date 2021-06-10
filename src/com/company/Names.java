@@ -26,6 +26,16 @@ public class Names {
         return surName;
     }
 
+    @Override
+    public String toString() {
+        return "Names{" +
+                "name='" + name + '\'' +
+                ", firstName='" + firstName + '\'' +
+                ", surName='" + surName + '\'' +
+                ", contact='" + contact + '\'' +
+                '}';
+    }
+
     public String getContact() {
         return contact;
     }

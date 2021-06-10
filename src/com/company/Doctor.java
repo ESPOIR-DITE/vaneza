@@ -24,4 +24,12 @@ public class Doctor {
     public void setNames(Names names) {
         this.names = names;
     }
+
+    @Override
+    public String toString() {
+        return "Doctor{" +
+                "empNumber='" + empNumber + '\'' +
+                ", names=" + names.toString()+
+                '}';
+    }
 }
